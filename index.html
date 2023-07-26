@@ -73,6 +73,83 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Nmap介绍和用法" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/07/26/Nmap%E4%BB%8B%E7%BB%8D%E5%92%8C%E7%94%A8%E6%B3%95/" class="article-date">
+  <time class="dt-published" datetime="2023-07-26T08:35:31.000Z" itemprop="datePublished">2023-07-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2023/07/26/Nmap%E4%BB%8B%E7%BB%8D%E5%92%8C%E7%94%A8%E6%B3%95/">Nmap介绍和用法</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Nmap是一个网络探测和安全评估工具，它可以用于扫描网络上的主机和端口，收集主机信息和服务信息。下面是一些关于Nmap的重要信息：</p>
+<ul>
+<li><p>端口扫描：Nmap可以用于扫描目标主机上开放的端口。常见的扫描类型包括TCP全连接扫描（”-sT”）、SYN扫描（”-sS”）、UDP扫描（”-sU”）等。</p>
+</li>
+<li><p>操作系统探测：Nmap可以通过分析网络流量、响应和其他特征来推测目标主机的操作系统类型。可以使用”-O”参数进行操作系统探测。</p>
+</li>
+<li><p>服务和版本探测：Nmap可以识别目标主机上运行的服务和应用程序的版本信息。使用”-sV”参数进行服务和版本探测。</p>
+</li>
+<li><p>脚本扫描：Nmap提供了强大的脚本引擎，可以使用预先编写好的脚本来进行各种类型的扫描和漏洞评估。使用”–script”参数可以选择特定的脚本进行扫描。</p>
+</li>
+<li><p>输出和报告：Nmap可以生成多种格式的扫描结果报告，包括文本文件、XML文件和HTML文件。使用”-o”参数指定输出格式和文件名。</p>
+</li>
+</ul>
+<h5 id="请注意，使用Nmap进行网络扫描需要遵守相关法律法规，并获得合适的授权，以确保您的行为合法合规。滥用Nmap可能会对网络安全造成潜在风险和违法行为，因此请谨慎使用，并仅限于合法的目的，如网络安全评估、系统管理等。"><a href="#请注意，使用Nmap进行网络扫描需要遵守相关法律法规，并获得合适的授权，以确保您的行为合法合规。滥用Nmap可能会对网络安全造成潜在风险和违法行为，因此请谨慎使用，并仅限于合法的目的，如网络安全评估、系统管理等。" class="headerlink" title="请注意，使用Nmap进行网络扫描需要遵守相关法律法规，并获得合适的授权，以确保您的行为合法合规。滥用Nmap可能会对网络安全造成潜在风险和违法行为，因此请谨慎使用，并仅限于合法的目的，如网络安全评估、系统管理等。"></a>请注意，使用Nmap进行网络扫描需要遵守相关法律法规，并获得合适的授权，以确保您的行为合法合规。滥用Nmap可能会对网络安全造成潜在风险和违法行为，因此请谨慎使用，并仅限于合法的目的，如网络安全评估、系统管理等。</h5><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><p>Nmap是一个功能强大的网络探测和安全评估工具，具有广泛的用途。下面是一些常见的Nmap用法及其相应的命令：</p>
+<p>基本端口扫描：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap target</span><br></pre></td></tr></table></figure>
+<p>这将对目标主机进行TCP SYN扫描，默认扫描最常见的1000个端口。</p>
+<p>扫描特定端口范围：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -p start-end target</span><br></pre></td></tr></table></figure>
+<p>这将扫描目标主机上从起始端口到结束端口之间的端口范围。</p>
+<p>扫描主机范围：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap ip-range</span><br></pre></td></tr></table></figure>
+<p>这将扫描指定IP地址范围内的所有主机。</p>
+<p>使用UDP扫描：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sU target</span><br></pre></td></tr></table></figure>
+<p>这将对目标主机进行UDP扫描，以发现开放的UDP端口。</p>
+<p>操作系统探测：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -O target</span><br></pre></td></tr></table></figure>
+<p>这将尝试识别目标主机的操作系统类型。</p>
+<p>服务和版本探测：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -sV target</span><br></pre></td></tr></table></figure>
+<p>这将尝试识别目标主机上运行的服务和应用程序的版本信息。</p>
+<p>脚本扫描：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap --script script-name target</span><br></pre></td></tr></table></figure>
+<p>这将使用指定的脚本进行扫描，可以选择从Nmap提供的各种脚本中进行选择，也可以使用自定义脚本。</p>
+<p>输出结果到文件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nmap -oN output.txt target</span><br></pre></td></tr></table></figure>
+<p>这将将扫描结果输出到一个文本文件中。您还可以使用其他输出格式，如XML（-oX）或HTML（-oX）。</p>
+<p>这只是Nmap的一些常见用法示例，该工具还提供了许多其他选项和功能。您可以使用<code>bash nmap --help</code>命令查看完整的帮助文档，了解更多可用的选项和用法。</p>
+<h3 id="请记住，在使用Nmap时，请始终遵守适用的法律法规，并仅限于合法的目的。"><a href="#请记住，在使用Nmap时，请始终遵守适用的法律法规，并仅限于合法的目的。" class="headerlink" title="请记住，在使用Nmap时，请始终遵守适用的法律法规，并仅限于合法的目的。"></a>请记住，在使用Nmap时，请始终遵守适用的法律法规，并仅限于合法的目的。</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://1230333shihaoran.github.io/2023/07/26/Nmap%E4%BB%8B%E7%BB%8D%E5%92%8C%E7%94%A8%E6%B3%95/" data-id="clkjhe6aw00011sv71l8nbakp" data-title="Nmap介绍和用法" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-中国网络无法访问github-com" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2023/07/25/%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AEgithub-com/" class="article-date">
@@ -105,7 +182,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/25/%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AEgithub-com/" data-id="clkjb68qu000194v73f3fd5ho" data-title="中国网络无法访问github.com" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/25/%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AEgithub-com/" data-id="clkjhe6ax00021sv7bysh6l5y" data-title="中国网络无法访问github.com" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -172,7 +249,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/25/hello-world/" data-id="clkjb68qw000394v75y81gx5x" data-title="RUST开服方法" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/25/hello-world/" data-id="clkjhe6az00041sv7cbsigm5o" data-title="RUST开服方法" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -219,7 +296,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/25/ALI/" data-id="clkjb68qr000094v778zh475b" data-title="KALI简介" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/25/ALI/" data-id="clkjhe6at00001sv7dy121yhs" data-title="KALI简介" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -258,7 +335,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/19/%E7%A5%9D%E6%9B%B9Rain%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81/" data-id="clkjb68qx000694v7cg8ifkrv" data-title="祝曹Rain生日快乐！" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/19/%E7%A5%9D%E6%9B%B9Rain%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81/" data-id="clkjhe6b000061sv7043328s3" data-title="祝曹Rain生日快乐！" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -298,7 +375,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/18/%E5%A5%BD%E7%9C%8B%E7%9A%84%E4%B8%9C%E8%A5%BF/" data-id="clkjb68qw000494v70jb1hnfl" data-title="好看的东西" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/18/%E5%A5%BD%E7%9C%8B%E7%9A%84%E4%B8%9C%E8%A5%BF/" data-id="clkjhe6ay00031sv7hs0jdys7" data-title="好看的东西" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -340,7 +417,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/18/%E6%AF%95%E4%B8%9A%E5%BF%AB%E4%B9%90%EF%BC%81/" data-id="clkjb68qv000294v7388bg7s3" data-title="毕业快乐！" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/18/%E6%AF%95%E4%B8%9A%E5%BF%AB%E4%B9%90%EF%BC%81/" data-id="clkjhe6az00051sv7bryddxwe" data-title="毕业快乐！" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -381,7 +458,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://1230333shihaoran.github.io/2023/07/04/%E6%B5%8B%E8%AF%95/" data-id="clkjb68qx000594v74zdc3940" data-title="测试" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      <a data-url="https://1230333shihaoran.github.io/2023/07/04/%E6%B5%8B%E8%AF%95/" data-id="clkjhe6b000071sv75mkm24tu" data-title="测试" class="article-share-link"><span class="fa fa-share">分享</span></a>
       
       
       
@@ -424,6 +501,10 @@
       <ul>
         
           <li>
+            <a href="/2023/07/26/Nmap%E4%BB%8B%E7%BB%8D%E5%92%8C%E7%94%A8%E6%B3%95/">Nmap介绍和用法</a>
+          </li>
+        
+          <li>
             <a href="/2023/07/25/%E4%B8%AD%E5%9B%BD%E7%BD%91%E7%BB%9C%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AEgithub-com/">中国网络无法访问github.com</a>
           </li>
         
@@ -437,10 +518,6 @@
         
           <li>
             <a href="/2023/07/19/%E7%A5%9D%E6%9B%B9Rain%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90%EF%BC%81/">祝曹Rain生日快乐！</a>
-          </li>
-        
-          <li>
-            <a href="/2023/07/18/%E5%A5%BD%E7%9C%8B%E7%9A%84%E4%B8%9C%E8%A5%BF/">好看的东西</a>
           </li>
         
       </ul>

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://1230333shihaoran.github.io/jsj/index.html</loc>
+    
+    <lastmod>2023-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://1230333shihaoran.github.io/2023/09/10/%E6%95%99%E5%B8%88%E8%8A%82%E5%BF%AB%E4%B9%90%EF%BC%81/</loc>
+    
+    <lastmod>2023-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://1230333shihaoran.github.io/2023/07/25/ALI/</loc>
     
     <lastmod>2023-09-08</lastmod>
@@ -110,15 +128,6 @@
   </url>
   
   <url>
-    <loc>https://1230333shihaoran.github.io/1666/index.html</loc>
-    
-    <lastmod>2023-09-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://1230333shihaoran.github.io/2023/09/01/%E4%B8%80%E4%BA%9B%E9%A1%B5%E9%9D%A2/</loc>
     
     <lastmod>2023-09-01</lastmod>
@@ -139,7 +148,7 @@
 
   <url>
     <loc>https://1230333shihaoran.github.io/</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://1230333shihaoran.github.io/2023/09/28/%E5%85%B3%E4%BA%8E%E5%8E%9F%E7%A5%9E/</loc>
+    
+    <lastmod>2023-09-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://1230333shihaoran.github.io/yssf/index.html</loc>
+    
+    <lastmod>2023-09-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://1230333shihaoran.github.io/2023/09/30/%E5%85%B3%E4%BA%8E/</loc>
     
     <lastmod>2023-09-16</lastmod>
@@ -157,7 +175,7 @@
 
   <url>
     <loc>https://1230333shihaoran.github.io/</loc>
-    <lastmod>2023-09-16</lastmod>
+    <lastmod>2023-09-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>

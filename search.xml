@@ -11,24 +11,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>KALI简介</title>
-    <url>/2023/07/25/ALI/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>随着现代技术的快速发展，网络安全问题变得日益重要。在这个数字化时代，安全专业人员需要不断学习和掌握各种工具和技术，以保护网络免受潜在的威胁。在这方面，Kali Linux成为了一个强大而受欢迎的解决方案。</p>
-<p>   Kali Linux是一款基于Debian的Linux发行版，专注于网络安全和渗透测试。它内置了大量功能强大的工具，适用于安全专业人员、渗透测试人员以及对网络安全感兴趣的爱好者。以下是一些Kali Linux的主要功能：</p>
-<p>   首先，Kali Linux提供了丰富的渗透测试工具。无论是Metasploit、Nmap还是Wireshark，这些工具都可以帮助安全专业人员发现系统漏洞、进行渗透测试和网络侦查，以及分析数据包。通过使用这些工具，安全专业人员可以评估系统的安全性并采取相应的措施来提高网络的安全性。</p>
-<p>   其次，Kali Linux还提供了强大的密码破解工具。John the Ripper和Hashcat等工具可以测试密码的强度，破解加密文件以及恢复丢失的密码。对于安全专业人员来说，了解和评估密码的强度对保护网络至关重要。Kali Linux提供了这些工具来帮助他们进行密码安全性测试和密码恢复。</p>
-<p>   另外，Kali Linux还拥有丰富的网络分析工具。通过使用tcpdump和Wireshark等工具，安全专业人员可以捕获和分析网络数据包，进而进行网络故障排除和安全审计。这些工具对于发现网络中的潜在问题以及寻找安全漏洞至关重要。</p>
-<p>   除了渗透测试和网络分析工具，Kali Linux还支持无线网络攻击工具。Aircrack-ng和Reaver等工具可以用于破解无线网络密码、执行中间人攻击等。这些工具对于网络安全专业人员来说是必不可少的，因为无线网络往往是黑客攻击的目标之一。</p>
-<p>   此外，Kali Linux还提供了一些社会工程学工具，例如Set和Maltego。这些工具用于模拟钓鱼攻击、信息收集和社会工程学渗透测试。社会工程学是黑客攻击中的常见手段之一，了解并学习如何防范这些攻击是至关重要的。</p>
-<p>   最后，Kali Linux还包含一些数据恢复工具，如TestDisk和Foremost。这些工具可以帮助用户从损坏或格式化的存储介质中恢复丢失的数据。对于那些在意数据安全和恢复的用户来说，这些工具可以提供帮助和支持。</p>
-<p>   总结起来，Kali Linux是一个功能强大的网络安全和渗透测试平台。它为安全专业人员和爱好者提供了丰富的工具和功能，用于发现漏洞、评估安全性、进行渗透测试和学习网络安全知识。然而，需要强调的是，使用Kali Linux工具和技术时，必须严格遵守法律法规，并遵循道德准则。只有在合法和道德的框架下使用这些工具，我们才能更好地保护网络安全，并为网络安全领域做出贡献。</p>
-<ul>
-<li><a href="https://kali.org/">kali官网</a></li>
-</ul>
-<p>———————— Powered by Shihaoran ————————————————-</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Hexo博客搭建</title>
     <url>/2023/08/02/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
@@ -53,6 +35,24 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure></li>
 <li><p>以上只是一下基本代码，可以运行<code>hexo help </code>获取更多信息！！！</p>
 </li>
+</ul>
+<p>———————— Powered by Shihaoran ————————————————-</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>KALI简介</title>
+    <url>/2023/07/25/ALI/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>随着现代技术的快速发展，网络安全问题变得日益重要。在这个数字化时代，安全专业人员需要不断学习和掌握各种工具和技术，以保护网络免受潜在的威胁。在这方面，Kali Linux成为了一个强大而受欢迎的解决方案。</p>
+<p>   Kali Linux是一款基于Debian的Linux发行版，专注于网络安全和渗透测试。它内置了大量功能强大的工具，适用于安全专业人员、渗透测试人员以及对网络安全感兴趣的爱好者。以下是一些Kali Linux的主要功能：</p>
+<p>   首先，Kali Linux提供了丰富的渗透测试工具。无论是Metasploit、Nmap还是Wireshark，这些工具都可以帮助安全专业人员发现系统漏洞、进行渗透测试和网络侦查，以及分析数据包。通过使用这些工具，安全专业人员可以评估系统的安全性并采取相应的措施来提高网络的安全性。</p>
+<p>   其次，Kali Linux还提供了强大的密码破解工具。John the Ripper和Hashcat等工具可以测试密码的强度，破解加密文件以及恢复丢失的密码。对于安全专业人员来说，了解和评估密码的强度对保护网络至关重要。Kali Linux提供了这些工具来帮助他们进行密码安全性测试和密码恢复。</p>
+<p>   另外，Kali Linux还拥有丰富的网络分析工具。通过使用tcpdump和Wireshark等工具，安全专业人员可以捕获和分析网络数据包，进而进行网络故障排除和安全审计。这些工具对于发现网络中的潜在问题以及寻找安全漏洞至关重要。</p>
+<p>   除了渗透测试和网络分析工具，Kali Linux还支持无线网络攻击工具。Aircrack-ng和Reaver等工具可以用于破解无线网络密码、执行中间人攻击等。这些工具对于网络安全专业人员来说是必不可少的，因为无线网络往往是黑客攻击的目标之一。</p>
+<p>   此外，Kali Linux还提供了一些社会工程学工具，例如Set和Maltego。这些工具用于模拟钓鱼攻击、信息收集和社会工程学渗透测试。社会工程学是黑客攻击中的常见手段之一，了解并学习如何防范这些攻击是至关重要的。</p>
+<p>   最后，Kali Linux还包含一些数据恢复工具，如TestDisk和Foremost。这些工具可以帮助用户从损坏或格式化的存储介质中恢复丢失的数据。对于那些在意数据安全和恢复的用户来说，这些工具可以提供帮助和支持。</p>
+<p>   总结起来，Kali Linux是一个功能强大的网络安全和渗透测试平台。它为安全专业人员和爱好者提供了丰富的工具和功能，用于发现漏洞、评估安全性、进行渗透测试和学习网络安全知识。然而，需要强调的是，使用Kali Linux工具和技术时，必须严格遵守法律法规，并遵循道德准则。只有在合法和道德的框架下使用这些工具，我们才能更好地保护网络安全，并为网络安全领域做出贡献。</p>
+<ul>
+<li><a href="https://kali.org/">kali官网</a></li>
 </ul>
 <p>———————— Powered by Shihaoran ————————————————-</p>
 ]]></content>
@@ -132,6 +132,49 @@
 ]]></content>
   </entry>
   <entry>
+    <title>RUST开服方法</title>
+    <url>/2023/07/25/Rust/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h4><ul>
+<li>一个稳定的网络环境。 </li>
+<li>一台安装了Windows或Linux操作系统的电脑。 </li>
+<li>必要的系统权限，包括管理员权限。</li>
+</ul>
+<h4 id="二、步骤流程："><a href="#二、步骤流程：" class="headerlink" title="二、步骤流程："></a>二、步骤流程：</h4><h5 id="步骤一：下载并安装SteamCMD"><a href="#步骤一：下载并安装SteamCMD" class="headerlink" title="步骤一：下载并安装SteamCMD"></a>步骤一：下载并安装SteamCMD</h5><ul>
+<li><p>首先，您需要下载SteamCMD这个工具。这是一个命令行版本的Steam客户端，可以节省宝贵的系统资源。</p>
+</li>
+<li><p>创建一个用来存放SteamCMD的文件夹，并将下载的SteamCMD解压到这个文件夹中。</p>
+</li>
+</ul>
+<h5 id="步骤二：使用SteamCMD安装RUST的服务端程序"><a href="#步骤二：使用SteamCMD安装RUST的服务端程序" class="headerlink" title="步骤二：使用SteamCMD安装RUST的服务端程序"></a>步骤二：使用SteamCMD安装RUST的服务端程序</h5><ul>
+<li>运行SteamCMD，然后在命令行中输入这些命令：</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">login anonymous</span><br><span class="line">force_install_dir C:\your\path</span><br><span class="line">app_update 258550 validate</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="注意，您需要将”C-your-path”替换为您希望安装RUST服务端程序的路径。"><a href="#注意，您需要将”C-your-path”替换为您希望安装RUST服务端程序的路径。" class="headerlink" title="注意，您需要将”C:\your\path”替换为您希望安装RUST服务端程序的路径。"></a>注意，您需要将”C:\your\path”替换为您希望安装RUST服务端程序的路径。</h3><h5 id="步骤三：配置服务器"><a href="#步骤三：配置服务器" class="headerlink" title="步骤三：配置服务器"></a>步骤三：配置服务器</h5><p>1、创建一个名为“server.cfg”的文件，输入以下内容：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hostname <span class="string">&quot;Your Server Name&quot;</span></span><br><span class="line">rcon.password <span class="string">&quot;Your Password&quot;</span></span><br><span class="line">server.description <span class="string">&quot;Your Description&quot;</span></span><br><span class="line">server.headerimage <span class="string">&quot;Your Image Link&quot;</span></span><br><span class="line">server.url <span class="string">&quot;Your Website&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="您需要替换上述内容中的”Your-Server-Name”等为您想要设置的内容。"><a href="#您需要替换上述内容中的”Your-Server-Name”等为您想要设置的内容。" class="headerlink" title="您需要替换上述内容中的”Your Server Name”等为您想要设置的内容。"></a>您需要替换上述内容中的”Your Server Name”等为您想要设置的内容。</h3><h5 id="步骤四：启动服务器"><a href="#步骤四：启动服务器" class="headerlink" title="步骤四：启动服务器"></a>步骤四：启动服务器</h5><p>1、在Rust服务端程序的安装文件夹下，创建一个名为“start.bat”的文件，输入以下内容：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">RustDedicated -batchmode </span><br><span class="line">+server.ip yourIP </span><br><span class="line">+server.port yourPort </span><br><span class="line">+server.tickrate 30 </span><br><span class="line">+server.hostname <span class="string">&quot;Your Server Name&quot;</span> </span><br><span class="line">+server.description <span class="string">&quot;Your Server Description&quot;</span> </span><br><span class="line">+server.url <span class="string">&quot;Your Website&quot;</span> </span><br><span class="line">+server.headerimage <span class="string">&quot;Your Image Link&quot;</span> </span><br><span class="line">+server.maxplayers 50 +server.worldsize 4000 </span><br><span class="line">+server.seed 1234 </span><br><span class="line">+server.saveinterval 300 -logfile <span class="string">&quot;output.txt&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h3 id="替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start-bat就可以启动服务器了。"><a href="#替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start-bat就可以启动服务器了。" class="headerlink" title="替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start.bat就可以启动服务器了。"></a>替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start.bat就可以启动服务器了。</h3><ul>
+<li><p><a href="https://rustmaps.com/">地图种子可以在这个网站上找</a></p>
+</li>
+<li><p><a href="https://www.rustadmin.com/">RUST管理员网站</a></p>
+</li>
+<li><p>注意：由于两个网站都是国外网站，所以加载速度会有点慢！</p>
+</li>
+</ul>
+<p>您成功开启自己的RUST游戏服务器后，可以邀请您的朋友们一起加入游玩。祝您玩得开心！</p>
+<p>———————— Powered by Shihaoran ————————————————-</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一些页面</title>
+    <url>/2023/09/01/%E4%B8%80%E4%BA%9B%E9%A1%B5%E9%9D%A2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
+<li><a href="https://1230333shihaoran.github.io/yuanshen">原神</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
     <title>Nmap介绍和用法</title>
     <url>/2023/07/26/Nmap%E4%BB%8B%E7%BB%8D%E5%92%8C%E7%94%A8%E6%B3%95/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Nmap是一个网络探测和安全评估工具，它可以用于扫描网络上的主机和端口，收集主机信息和服务信息。下面是一些关于Nmap的重要信息：</p>
@@ -180,49 +223,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>RUST开服方法</title>
-    <url>/2023/07/25/Rust/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="一、准备工作："><a href="#一、准备工作：" class="headerlink" title="一、准备工作："></a>一、准备工作：</h4><ul>
-<li>一个稳定的网络环境。 </li>
-<li>一台安装了Windows或Linux操作系统的电脑。 </li>
-<li>必要的系统权限，包括管理员权限。</li>
-</ul>
-<h4 id="二、步骤流程："><a href="#二、步骤流程：" class="headerlink" title="二、步骤流程："></a>二、步骤流程：</h4><h5 id="步骤一：下载并安装SteamCMD"><a href="#步骤一：下载并安装SteamCMD" class="headerlink" title="步骤一：下载并安装SteamCMD"></a>步骤一：下载并安装SteamCMD</h5><ul>
-<li><p>首先，您需要下载SteamCMD这个工具。这是一个命令行版本的Steam客户端，可以节省宝贵的系统资源。</p>
-</li>
-<li><p>创建一个用来存放SteamCMD的文件夹，并将下载的SteamCMD解压到这个文件夹中。</p>
-</li>
-</ul>
-<h5 id="步骤二：使用SteamCMD安装RUST的服务端程序"><a href="#步骤二：使用SteamCMD安装RUST的服务端程序" class="headerlink" title="步骤二：使用SteamCMD安装RUST的服务端程序"></a>步骤二：使用SteamCMD安装RUST的服务端程序</h5><ul>
-<li>运行SteamCMD，然后在命令行中输入这些命令：</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">login anonymous</span><br><span class="line">force_install_dir C:\your\path</span><br><span class="line">app_update 258550 validate</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="注意，您需要将”C-your-path”替换为您希望安装RUST服务端程序的路径。"><a href="#注意，您需要将”C-your-path”替换为您希望安装RUST服务端程序的路径。" class="headerlink" title="注意，您需要将”C:\your\path”替换为您希望安装RUST服务端程序的路径。"></a>注意，您需要将”C:\your\path”替换为您希望安装RUST服务端程序的路径。</h3><h5 id="步骤三：配置服务器"><a href="#步骤三：配置服务器" class="headerlink" title="步骤三：配置服务器"></a>步骤三：配置服务器</h5><p>1、创建一个名为“server.cfg”的文件，输入以下内容：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hostname <span class="string">&quot;Your Server Name&quot;</span></span><br><span class="line">rcon.password <span class="string">&quot;Your Password&quot;</span></span><br><span class="line">server.description <span class="string">&quot;Your Description&quot;</span></span><br><span class="line">server.headerimage <span class="string">&quot;Your Image Link&quot;</span></span><br><span class="line">server.url <span class="string">&quot;Your Website&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="您需要替换上述内容中的”Your-Server-Name”等为您想要设置的内容。"><a href="#您需要替换上述内容中的”Your-Server-Name”等为您想要设置的内容。" class="headerlink" title="您需要替换上述内容中的”Your Server Name”等为您想要设置的内容。"></a>您需要替换上述内容中的”Your Server Name”等为您想要设置的内容。</h3><h5 id="步骤四：启动服务器"><a href="#步骤四：启动服务器" class="headerlink" title="步骤四：启动服务器"></a>步骤四：启动服务器</h5><p>1、在Rust服务端程序的安装文件夹下，创建一个名为“start.bat”的文件，输入以下内容：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">RustDedicated -batchmode </span><br><span class="line">+server.ip yourIP </span><br><span class="line">+server.port yourPort </span><br><span class="line">+server.tickrate 30 </span><br><span class="line">+server.hostname <span class="string">&quot;Your Server Name&quot;</span> </span><br><span class="line">+server.description <span class="string">&quot;Your Server Description&quot;</span> </span><br><span class="line">+server.url <span class="string">&quot;Your Website&quot;</span> </span><br><span class="line">+server.headerimage <span class="string">&quot;Your Image Link&quot;</span> </span><br><span class="line">+server.maxplayers 50 +server.worldsize 4000 </span><br><span class="line">+server.seed 1234 </span><br><span class="line">+server.saveinterval 300 -logfile <span class="string">&quot;output.txt&quot;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h3 id="替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start-bat就可以启动服务器了。"><a href="#替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start-bat就可以启动服务器了。" class="headerlink" title="替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start.bat就可以启动服务器了。"></a>替换上述内容中的”yourIP”、”yourPort”还有地图种子等信息，然后双击运行start.bat就可以启动服务器了。</h3><ul>
-<li><p><a href="https://rustmaps.com/">地图种子可以在这个网站上找</a></p>
-</li>
-<li><p><a href="https://www.rustadmin.com/">RUST管理员网站</a></p>
-</li>
-<li><p>注意：由于两个网站都是国外网站，所以加载速度会有点慢！</p>
-</li>
-</ul>
-<p>您成功开启自己的RUST游戏服务器后，可以邀请您的朋友们一起加入游玩。祝您玩得开心！</p>
-<p>———————— Powered by Shihaoran ————————————————-</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>一些页面</title>
-    <url>/2023/09/01/%E4%B8%80%E4%BA%9B%E9%A1%B5%E9%9D%A2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
-<li><a href="https://1230333shihaoran.github.io/yuanshen">原神</a></li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>关于</title>
     <url>/2023/09/11/%E5%85%B3%E4%BA%8E/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><ul>
@@ -240,6 +240,7 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="原神展示篇"><a href="#原神展示篇" class="headerlink" title="原神展示篇"></a>原神展示篇</h4><h4 id="总"><a href="#总" class="headerlink" title="总"></a>总</h4><p><video src="https://webstatic.mihoyo.com/upload/op-public/2020/09/27/fd431739ff26ceeb3010ac561d68446b_345688670889091949.mp4" width="100%" height="auto" controls="controls" autoplay="autoplay"></video></p>
 <p><video src="https://webstatic.mihoyo.com/upload/op-public/2021/10/03/9ec1205e68959838a18872e71268e399_2717250742320643202.mp4" width="100%" height="auto" controls="controls" autoplay="autoplay"></video></p>
 <h4 id="4-2版本"><a href="#4-2版本" class="headerlink" title="4.2版本"></a>4.2版本</h4><p><video src="https://fastcdn.mihoyo.com/static-resource-v2/2023/11/03/239301475344bda8e7e0fefe714ac86e_6010389899008299497.mp4" width="100%" height="auto" controls="controls" autoplay="autoplay"></video></p>
+<h4 id="4-3版本"><a href="#4-3版本" class="headerlink" title="4.3版本"></a>4.3版本</h4><p><video src="https://fastcdn.mihoyo.com/static-resource-v2/2023/12/08/7841d6f298b3c6b02231bed896b93498_1132898615241306407.mp4" width="100%" height="auto" controls="controls" autoplay="autoplay"></video></p>
 ]]></content>
   </entry>
   <entry>
